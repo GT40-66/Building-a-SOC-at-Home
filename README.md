@@ -29,9 +29,9 @@ This proved to be very helpful as a future reference through the project to remm
 
 The biggest part of the lab is the ELK stack. The SOC revolves around dashboards and alerts. It was incredible to see the geolocation of the ssh and rdp attempts on my VMs. In addition, I gathered the IP addresses, attempted user names and passwords, and timestamps. 
 <br />
-<img src="https://imgur.com/aQGowLV.png" />
-<br />
 <img src="https://imgur.com/Ye5vsZ0.png" />
+<br />
+<img src="https://imgur.com/aQGowLV.png" />
 <br />
 
 As the lab progressed, it turned into thousands of attempts on the machines. Not only did I create dashboards, but I set up alerts to associate with either failed ssh or failed rdp attempts. To demonstrate successful attempts, I set up a Kali box to brute force into the Windows machine using Crowbar. With the gathered credentials, I was then able to RDP into it and disable the firewall. This fell into the phases of the attack diagram I built first. <br />
